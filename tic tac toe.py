@@ -59,7 +59,7 @@ def enter_move(board):
                 board[1][2] = "O"
                 break
 
-            elif board == 7:
+            elif move == 7:
                 moves_used.append(7)
                 remain_moves.remove(7)
                 board[2][0] = "O"
